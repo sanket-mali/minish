@@ -17,6 +17,11 @@
 	color: #333;
 	font-size: 25px
 }
+.endline{
+	width:60%;
+	align:center;
+}
 @media screen and (max-width: 768px){
 	.heading h2{font-size: 20px}
+	.endline{width:80%;}
 }
