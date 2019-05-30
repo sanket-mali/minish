@@ -1,0 +1,22 @@
+.headline{
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 10px;
+
+  background: -moz-linear-gradient(left, #33805d 0%, #33805d 25%, #3d9970 25%, #3d9970 50%, #49b685 50%, #49b685 75%, #6dc59d 75%, #6dc59d 100%);  /* FF3.6+ */
+  background: -webkit-linear-gradient(left, #33805d 0%, #33805d 25%, #3d9970 25%, #3d9970 50%, #49b685 50%, #49b685 75%, #6dc59d 75%, #6dc59d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #33805d 0%, #33805d 25%, #3d9970 25%, #3d9970 50%, #49b685 50%, #49b685 75%, #6dc59d 75%, #6dc59d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #33805d 0%, #33805d 25%, #3d9970 25%, #3d9970 50%, #49b685 50%, #49b685 75%, #6dc59d 75%, #6dc59d 100%); /* IE10+ */
+  background: linear-gradient(to right, #33805d 0%, #33805d 25%, #3d9970 25%, #3d9970 50%, #49b685 50%, #49b685 75%, #6dc59d 75%, #6dc59d 100%); /* W3C */
+}
+.heading{
+	text-align: center;
+}
+.heading h2{
+	font-family: courier;
+	font-weight: 400;
+	color: #333;
+	font-size: 25px
+}
+@media screen and (max-width: 768px){
+	.heading h2{font-size: 20px}
+}
